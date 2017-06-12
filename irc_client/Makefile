@@ -1,11 +1,11 @@
 ##
 ## Makefile for Project-Master in /Users/salimhabchi/vagrant/PSU_2016_myirc
-## 
+##
 ## Made by habchi_s
 ## Login   <habchi_s@epitech.eu>
-## 
+##
 ## Started on  Sun Jun 11 22:08:20 2017 habchi_s
-## Last update Sun Jun 11 22:42:34 2017 habchi_s
+## Last update Mon Jun 12 13:47:10 2017 Pierre Hay
 ####
 
 CC	= gcc
@@ -18,8 +18,8 @@ CFLAGS	+= -Iinclude -I../common/includes/
 SRCS	= sources/client.c \
 	sources/utils.c \
 	sources/tools.c \
-	../common/lib/ring_buffer/source/ring_buffer.c \
-	../common/lib/ring_buffer/source/rb_content.c \
+	../common/lib/ring_buffer/ring_buffer.c \
+	../common/lib/ring_buffer/rb_content.c \
 	../common/stwb.c \
 	../common/reader.c \
 	../common/get_port.c \

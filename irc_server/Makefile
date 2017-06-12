@@ -1,11 +1,11 @@
 ##
 ## Makefile for Project-Master in /Users/salimhabchi/vagrant/PSU_2016_myirc
-## 
+##
 ## Made by habchi_s
 ## Login   <habchi_s@epitech.eu>
-## 
+##
 ## Started on  Sun Jun 11 22:08:11 2017 habchi_s
-## Last update Sun Jun 11 22:22:48 2017 habchi_s
+## Last update Mon Jun 12 13:48:52 2017 Pierre Hay
 ####
 
 CC	= gcc
@@ -35,13 +35,13 @@ SRCS	= sources/utils.c \
 	  ../common/reader.c \
 	  ../common/stwb.c \
 	  ../common/grammar.c \
-	  ../common/lib/ring_buffer/source/rb_content.c \
-	  ../common/lib/ring_buffer/source/ring_buffer.c \
-	  ../common/lib/list/sources/delete_elem.c \
-	  ../common/lib/list/sources/elem_create.c \
-	  ../common/lib/list/sources/list_basics.c \
-	  ../common/lib/list/sources/list_create.c \
-	  ../common/lib/list/sources/list_tools.c \
+	  ../common/lib/ring_buffer/rb_content.c \
+	  ../common/lib/ring_buffer/ring_buffer.c \
+	  ../common/lib/list/delete_elem.c \
+	  ../common/lib/list/elem_create.c \
+	  ../common/lib/list/list_basics.c \
+	  ../common/lib/list/list_create.c \
+	  ../common/lib/list/list_tools.c \
 	  main.c
 
 OBJS	= $(SRCS:.c=.o)
